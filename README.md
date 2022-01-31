@@ -8,7 +8,7 @@ The goal is that the raspberry pi should be able to use a pir motion detection t
 
 ## Requirements
 ``` 
--> Raspberry Pi 3 Model A+ or newer with raspbian OS
+-> Raspberry Pi 4 or newer with raspbian OS
 -> PIR motion sensor
 -> Breadbord
 -> Jump Wires
