@@ -25,10 +25,11 @@ def pirMotionSensor():
             print response.status, response.reason
             data = response.read()
             conn.close()
+            time.sleep(0.1)
         except:
             print "connection failed"
         break
-        time.sleep(0.1)
+        
         
 if __name__ == "__main__":
         while True:
