@@ -3,6 +3,8 @@
 For this project I will be using python to create the script. It will involve the raspberry pi 3a+. 
 The goal is that the raspberry pi should be able to use a pir motion detection to sense if someone is close by.
 
+## The pipeline
+![data_pipeline example01](https://user-images.githubusercontent.com/16138814/151881589-c38d8b45-90b7-4f92-a531-c4f844f36cce.png)
 
 ## Requirements
 ``` 
