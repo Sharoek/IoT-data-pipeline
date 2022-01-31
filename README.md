@@ -28,6 +28,6 @@ Whenever the sensor detects a heat, the sensor outputs 5V signal for a period of
 ![EzxREB4bXOA0oJSqedw9TS24cUz9bPJPFpcdVldA](https://user-images.githubusercontent.com/16138814/151876555-70d63cd0-302f-4a1f-9e2e-1ebbf41bf2bc.jpg)
 
 As you can see from the picture we read the output from GPIO 11. As soon as a motion is detected, the sensor will output a HIGH 5V signal to the raspberry. 
-This gets catched by python and outputted as 'Intruder detected'.
+This gets catched by python and send over to Thingspeak.
 
 For capturing data and to send it over to the middleware we will use Thingspeak. As it is very easy to implement 
